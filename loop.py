@@ -36,14 +36,35 @@
 #     print("I like", fruits[i])
 
 # program to display student's marks from record
-student_name = 'James'
+# student_name = 'James'
 
-marks = {'James': 90, 'Jules': 55, 'Arthur': 77}
+# marks = {'James': 90, 'Jules': 55, 'Arthur': 77}
 
-for student in marks:
-    if student == student_name:
-        print(student, marks[student])
-        break
-else:
-    print('No entry with that name found.')
+# for student in marks:
+#     if student == student_name:
+#         print(student, marks[student])
+#         break
+# else:
+#     print('No entry with that name found.')
 
+
+# number= int(input(' choose a number to begin with: '))
+
+# sum=0
+# i= 1
+# while i <= number:
+#     sum= sum + i
+#     i= i + 1
+#     print(sum)
+# else:
+#     print('your trials for adding are over ')
+
+string= ('sringidihrgit')
+for letter in string:
+    if letter== 'i':
+        print(string.replace('i', str(string.index('i'))))
+        continue
+    print(letter)
+
+print('The end')
+s
