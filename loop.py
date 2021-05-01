@@ -59,12 +59,39 @@
 # else:
 #     print('your trials for adding are over ')
 
-string= ('sringidihrgit')
-for letter in string:
-    if letter== 'i':
-        print(string.replace('i', str(string.index('i'))))
-        continue
-    print(letter)
+# string= ('sringidihrgit')
+# for letter in string:
+#     if letter== 'i':
+#         print(string.replace('i', str(string.index('i'))))
+#         continue
+#     print(letter)
 
-print('The end')
-s
+# print('The end')
+
+
+
+# clothes = 'available'
+# shoes = None
+
+# def shopping (x):
+#     if x == clothes:
+#         print (clothes)
+#     else:
+#         print(shoes)
+
+# shopping (clothes)
+# shopping (shoes)
+
+def absolute_value(num):
+    """This function returns the absolute
+    value of the entered number"""
+
+    if num >= 0:
+        return num
+    else:
+        return -num
+
+
+print(absolute_value(2))
+
+print(absolute_value(-4))

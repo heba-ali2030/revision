@@ -11,9 +11,9 @@
 
 # print(isinstance(c,int))
 
-a = [5,10,15,20,25,30,35,40]
-print(a)
-print(a[2])
-print(a[:2])
-a[1]= -10
-print(a)
+# a = [5,10,15,20,25,30,35,40]
+# print(a)
+# print(a[2])
+# print(a[:2])
+# a[1]= -10
+# print(a)
