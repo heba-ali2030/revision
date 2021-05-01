@@ -82,16 +82,33 @@
 # shopping (clothes)
 # shopping (shoes)
 
-def absolute_value(num):
-    """This function returns the absolute
-    value of the entered number"""
+# def absolute_value(num):
+#     """This function returns the absolute
+#     value of the entered number"""
 
-    if num >= 0:
-        return num
-    else:
-        return -num
+#     if num >= 0:
+#         print(num)
+#     else:
+#         return -num
 
 
-print(absolute_value(2))
+# absolute_value(2)
 
-print(absolute_value(-4))
+# print(absolute_value(-4))
+
+# def greet(name, msg= 'How do you do ? '):
+
+#     print ('hello', name + ' , ' + msg )
+
+# greet('heba', 'good morning')
+# greet ('hala')
+
+def greet (*names):
+    #     *= asterisk
+    ''' this is when you don't know number of arguements'''
+
+    for name in names:
+        print('hello', name)
+
+greet('heba', 'hala', 'hager', 'hna')
+
