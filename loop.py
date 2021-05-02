@@ -103,12 +103,14 @@
 # greet('heba', 'good morning')
 # greet ('hala')
 
-def greet (*names):
-    #     *= asterisk
-    ''' this is when you don't know number of arguements'''
 
-    for name in names:
-        print('hello', name)
 
-greet('heba', 'hala', 'hager', 'hna')
+# def greet (*names):
+#     #     *= asterisk
+#     ''' this is when you don't know number of arguements'''
+
+#     for name in names:
+#         print('hello', name)
+
+# greet('heba', 'hala', 'hager', 'hna')
 
